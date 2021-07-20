@@ -1,10 +1,11 @@
-from api.models import CustomUser, Role
-from api.permissions import IsAdmin
-from api.serializers import UserSerializer
 from rest_framework import status, viewsets
 from rest_framework.decorators import action
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
+
+from api.models import CustomUser, Role
+from api.permissions import IsAdmin
+from api.serializers import UserSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
