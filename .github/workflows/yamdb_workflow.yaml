@@ -57,7 +57,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           stack_file_name: docker-compose.yaml
           script: |
-            sudo docker pull <имя-пользователя>/<имя-репозитория>
+            sudo docker pull h0diush/yamdb_final:latest
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env 
