@@ -1,5 +1,7 @@
 import datetime as dt
 
+from api.models import CustomUser, EmailAndCode
+from api.serializers import ConfirmEmailSerializer, GetTokenSerializer
 from django.utils import timezone
 from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
@@ -7,9 +9,6 @@ from rest_framework.generics import get_object_or_404
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
-
-from api.models import CustomUser, EmailAndCode
-from api.serializers import GetTokenSerializer, ConfirmEmailSerializer
 
 
 @api_view(['POST'])
