@@ -2,4 +2,4 @@
 yamdb_final
 
 
-![example workflow](https://github.com/h0diush/yamdb_final/actions/workflows/yamdb_workflow/badge.svg)
+https://github.com/h0diush/yamdb_final/actions/workflows/Django-app%20workflow/badge.svg

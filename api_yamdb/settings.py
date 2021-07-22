@@ -18,7 +18,12 @@ SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    '130.193.42.124', 
+    'localhost', 
+    'finalyamdb.tk',
+    'www.finalyamdb.tk'
+] 
 
 
 # Application definition
