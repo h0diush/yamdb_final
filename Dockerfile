@@ -4,4 +4,4 @@ WORKDIR /code
 COPY requirements.txt /code
 RUN pip3 install -r /code/requirements.txt
 COPY . /code
-RUN gunicorn api_yamdb.wsgi:application --bind 0.0.0.0:8000
+CMD gunicorn api_yamdb.wsgi:application --bind 0.0.0.0:8000
