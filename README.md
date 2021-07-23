@@ -10,8 +10,8 @@
 
 ### Внутри контейнера необходимо выполнить миграции и собрать статику приложения:
 
-``` python manage.py collectstatic --no-input``` ```
-```    python manage.py migrate ```
+- ``` python manage.py collectstatic --no-input```
+- ```    python manage.py migrate ```
 
 
 ### Для использования панели администратора по адресу http://finalyamdb.tk/admin/ необходимо создать суперпользователя.
