@@ -12,8 +12,6 @@ services:
   web:
     image: h0diush/yamdb_final:latest
     restart: always
-    entrypoint:
-      - ./start.sh
     depends_on:
       - db
     volumes:
