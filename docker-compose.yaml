@@ -12,7 +12,7 @@ services:
   web:
     image: h0diush/yamdb_final:latest
     restart: always
-    entrypoint: :
+    entrypoint:
       - ./start.sh
     depends_on:
       - db
